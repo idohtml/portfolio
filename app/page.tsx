@@ -39,12 +39,12 @@ export default function Home() {
             </CardHeader>
             <CardContent className="p-6">
               <p>
-                Hello! I'm Jacob, a passionate junior developer focused on
+                Hello! I&apos;m Jacob, a passionate junior developer focused on
                 creating elegant solutions to complex problems. As a self-taught
-                developer, I've been building my skills through hands-on
+                developer, I&apos;ve been building my skills through hands-on
                 projects and continuous learning. I specialize in full-stack
                 development, working across both frontend interfaces and backend
-                systems. I'm constantly exploring new technologies to improve my
+                systems. I&apos;m constantly exploring new technologies to improve my
                 craft, with a drive to grow and evolve in this ever-changing
                 field.
               </p>
