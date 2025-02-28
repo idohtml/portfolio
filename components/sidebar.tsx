@@ -9,13 +9,21 @@ import { ChevronLeft, ChevronRight, X, Menu } from "lucide-react";
 import { navLinks } from "@/lib/constants";
 
 // Navigation link component
+// Replace the 'any' type with a proper interface
+interface NavLink {
+  href: string;
+  label: string;
+  icon: React.ElementType;
+}
+
+// Then update the NavLink component props
 const NavLink = ({ 
   link, 
   isSidebarCollapsed, 
   isMobile, 
   onClick 
 }: { 
-  link: any, 
+  link: NavLink, 
   isSidebarCollapsed: boolean, 
   isMobile: boolean,
   onClick?: () => void 
