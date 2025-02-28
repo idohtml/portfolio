@@ -271,7 +271,7 @@ export default function Home() {
 
           <div className="pt-2">
             <p className="mb-6 text-gray-600 dark:text-gray-300">
-              I'm always open to discussing new projects, creative ideas, or
+              I&apos;m always open to discussing new projects, creative ideas, or
               opportunities to be part of your vision.
             </p>
 
