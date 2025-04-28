@@ -234,6 +234,19 @@ export const projects: Project[] = [
       "UI Design": "design",
     },
   },
+  {
+    id: "gearheadswe",
+    title: "Gearhead Sweden",
+    description:
+      "Discover Swedish-made premium car care products with unique scents and high performance. Perfect for all experience levels.",
+    technologies: ["Shopify"],
+    url: "https://gearheadswe.com/",
+    color: "green",
+    technologyCategories: {
+      Shopify: "design",
+      "UI Design": "design",
+    },
+  },
 ];
 
 export const frontendSkills = [
@@ -272,6 +285,7 @@ export const backendSkills = [
 
 export const designSkills = [
   "Figma",
+  "Shopify",
   "WordPress",
   "Elementor",
   "Adobe Photoshop",
